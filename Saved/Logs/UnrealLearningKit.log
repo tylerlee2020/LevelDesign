@@ -1140,3 +1140,69 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.14-06.09.47:072][161]AssetCheck: New page: Asset Save: multiple assets
 [2023.02.14-06.09.47:072][161]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.BP_Enemy_Pursuer
 [2023.02.14-06.09.47:072][161]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2023.02.14-06.18.45:486][914]BlueprintLog: New page: Compile BP_Enemy_Pursuer
+[2023.02.14-06.18.45:589][914]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2023.02.14-06.19.06:504][150]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.14-06.19.06:514][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.14-06.19.06:514][150]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 13, 2023, 6:19:06 PM)
+[2023.02.14-06.19.06:561][150]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.14-06.19.06:596][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034313s)
+[2023.02.14-06.19.06:596][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.034363s)
+[2023.02.14-06.19.06:596][150]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.14-06.19.06:597][150]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.14-06.19.06:597][150]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2023.02.14-06.19.06:647][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.02.14-06.19.06:651][150]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.14-06.19.06:651][150]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.14-06.19.06:651][150]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.14-06.19.06:651][150]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.14-06.19.06:651][150]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.14-06.19.06:651][150]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.14-06.19.06:655][150]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.14-06.19.06:766][150]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.14-06.19.06:766][150]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.14-06.19.06:766][150]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.14-06.19.06:766][150]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.14-06.19.06:767][150]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.02.14-06.19.06:767][150]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.02.14-06.19.06:769][150]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.02.14-06.19.06:769][150]LogInit: FAudioDevice initialized.
+[2023.02.14-06.19.06:769][150]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.02.14-06.19.06:769][150]LogAudio: Display: Audio Device (ID: 3) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.14-06.19.06:773][150]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.14-06.19.06:786][150]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.14-00.19.06
+[2023.02.14-06.19.09:240][150]LogWorld: Bringing up level for play took: 2.468068
+[2023.02.14-06.19.09:243][150]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2023.02.14-06.19.09:247][150]PIE: Server logged in
+[2023.02.14-06.19.09:248][150]PIE: Play in editor total start time 2.734 seconds.
+[2023.02.14-06.19.09:269][151]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076576 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.14-06.19.20:141][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.14-06.19.20:141][  5]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.14-06.19.20:142][  5]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.14-06.19.20:144][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-06.19.20:167][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.14-06.19.20:175][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.14-06.19.20:223][  5]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.14-06.19.20:224][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.14-06.19.20:225][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.02.14-06.19.20:232][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.14-06.19.20:238][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2023.02.14-06.19.20:355][  6]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2023.02.14-06.19.31:638][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.02.14-06.19.31:644][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.14-06.19.31:716][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.02.14-06.19.31:862][204]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.14-06.19.31:863][204]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/LearningKit_Games_ShowcaseE3CCE0814F833662933EAD8A0FBF2E63.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2023.02.14-06.19.31:876][204]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.207
+[2023.02.14-06.19.31:941][204]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer
+[2023.02.14-06.19.31:942][204]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/BP_Enemy_Pursuer6B6F390B4F6ECF3C13E42CB1B6D6D835.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.uasset'
+[2023.02.14-06.19.31:947][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 631 ms)
+[2023.02.14-06.19.31:960][204]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.14-06.19.31:960][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.BP_Enemy_Pursuer
+[2023.02.14-06.19.31:960][204]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
