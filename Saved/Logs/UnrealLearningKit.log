@@ -1342,3 +1342,21 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.14-23.25.38:165][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2023.02.14-23.25.38:179][126]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
 [2023.02.14-23.25.38:231][127]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.02.14-23.26.27:969][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.14-23.26.28:037][859]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/Pickups/Health_Pack_BP
+[2023.02.14-23.26.28:038][859]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Saved/Health_Pack_BPAFE5FF9F44D94FDC007DE3A6728FC738.tmp' to '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Content/LearningKit_Games/Blueprints/Pickups/Health_Pack_BP.uasset'
+[2023.02.14-23.26.28:046][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms
+[2023.02.14-23.26.28:059][859]AssetCheck: New page: Asset Save: Health_Pack_BP
+[2023.02.14-23.26.28:059][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/Pickups/Health_Pack_BP.Health_Pack_BP
+[2023.02.14-23.26.30:765][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2023.02.14-23.26.30:769][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.14-23.26.30:880][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.02.14-23.26.31:032][ 14]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.14-23.26.31:032][ 14]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Saved/LearningKit_Games_ShowcaseDAFC172B43CBB333171A3E8207B5A4EA.tmp' to '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2023.02.14-23.26.31:044][ 14]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.249
+[2023.02.14-23.26.31:141][ 14]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter
+[2023.02.14-23.26.31:141][ 14]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Saved/BP_LearningKit_PlayerCharacter3C669097493425CCE0E502A00B1F3666.tmp' to '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset'
+[2023.02.14-23.26.31:148][ 14]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 455 ms)
+[2023.02.14-23.26.31:164][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.14-23.26.31:164][ 14]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
+[2023.02.14-23.26.31:164][ 14]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
