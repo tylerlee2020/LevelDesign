@@ -1,0 +1,33 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/UI/HealthWidget.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/Pickups/Health_Pack_BP.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Albedo.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Emission.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Metallic.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Normal.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Occlusion.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/textures/health_pack_Roughness.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Roughness.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Occlusion.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Emission.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Normal.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Metallic.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack_Albedo.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Assets/Props/health-pack/source/Health_Pack/health_pack.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/UI/WBP_Restart.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_Pursuer.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/Blueprints/PlayerCharacter/AIController.uasset",
+				"C:/Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/Content/LearningKit_Games/UI/T_Restart.uasset"
+			]
+		}
+	]
+}
