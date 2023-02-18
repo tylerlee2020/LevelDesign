@@ -11349,3 +11349,875 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.18-21.25.58:518][431]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/LearningKit_Games/UI/RestartWidget.RestartWidget
 [2023.02.18-21.25.58:518][431]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
 [2023.02.18-21.25.58:518][431]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/Pickups/BP_Winning_Crystal.BP_Winning_Crystal
+[2023.02.18-21.26.34:461][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.18-21.26.34:471][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.18-21.26.34:471][704]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 18, 2023, 9:26:34 AM)
+[2023.02.18-21.26.34:471][704]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.26.34:564][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093233s)
+[2023.02.18-21.26.34:564][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.093269s)
+[2023.02.18-21.26.34:564][704]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.26.34:565][704]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.26.34:565][704]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2023.02.18-21.26.34:652][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.18-21.26.34:655][704]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.02.18-21.26.34:655][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.18-21.26.34:656][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.18-21.26.34:656][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.18-21.26.34:656][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.18-21.26.34:656][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.18-21.26.34:656][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.18-21.26.34:659][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.18-21.26.34:772][704]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.18-21.26.34:772][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.18-21.26.34:772][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.18-21.26.34:772][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.18-21.26.34:773][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.02.18-21.26.34:773][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.02.18-21.26.34:775][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.02.18-21.26.34:775][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.02.18-21.26.34:775][704]LogInit: FAudioDevice initialized.
+[2023.02.18-21.26.34:775][704]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.26.34:779][704]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.26.34:809][704]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.26.34
+[2023.02.18-21.26.37:288][704]LogWorld: Bringing up level for play took: 2.509901
+[2023.02.18-21.26.37:290][704]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2023.02.18-21.26.37:297][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.18-21.26.37:298][704]PIE: Server logged in
+[2023.02.18-21.26.37:299][704]PIE: Play in editor total start time 2.829 seconds.
+[2023.02.18-21.26.37:335][705]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074918 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.27.02:363][270]LogCharacterMovement: BP_LearningKit_PlayerCharacter_C_0 is stuck and failed to move! Velocity: X=200.14 Y=-162.99 Z=0.00 Location: X=4618.26 Y=-390.41 Z=508.41 Normal: X=-0.16 Y=-0.99 Z=-0.00 PenetrationDepth:1.698 Actor:BP_Projectile2_C_446 Component:CapsuleComponent BoneName:None (0 other events since notify)
+[2023.02.18-21.27.22:957][513]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.18-21.27.22:957][513]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.18-21.27.24:162][587]LogNet: Browse: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.27.24:162][587]LogLoad: LoadMap: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.27.24:162][587]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.27.24:164][587]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.27.24:169][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.27.24:264][587]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.18-21.27.24:286][587]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.02.18-21.27.24:302][587]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.27.24:395][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093124s)
+[2023.02.18-21.27.24:395][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.093174s)
+[2023.02.18-21.27.24:395][587]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.27.24:395][587]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.27.24:395][587]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.27.24:396][587]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2023.02.18-21.27.24:396][587]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.27.24:421][587]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.27.24
+[2023.02.18-21.27.26:920][587]LogWorld: Bringing up level for play took: 2.524191
+[2023.02.18-21.27.26:927][587]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.02.18-21.27.26:927][587]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.02.18-21.27.26:928][587]LogLoad: Took 2.766039 seconds to LoadMap(/Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase)
+[2023.02.18-21.27.26:959][588]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075220 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.28.08:288][127]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.18-21.28.08:288][127]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.18-21.28.08:984][168]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_3' was already added to the screen.
+[2023.02.18-21.28.08:984][168]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.09:233][184]LogNet: Browse: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.28.09:233][184]LogLoad: LoadMap: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.28.09:233][184]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.28.09:235][184]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.28.09:240][184]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.28.09:357][184]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.18-21.28.09:377][184]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.02.18-21.28.09:394][184]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.28.09:486][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092550s)
+[2023.02.18-21.28.09:486][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.092599s)
+[2023.02.18-21.28.09:486][184]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.28.09:486][184]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.28.09:486][184]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.28.09:487][184]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2023.02.18-21.28.09:487][184]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.28.09:513][184]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.28.09
+[2023.02.18-21.28.12:002][184]LogWorld: Bringing up level for play took: 2.515267
+[2023.02.18-21.28.12:009][184]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.02.18-21.28.12:009][184]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.02.18-21.28.12:010][184]LogLoad: Took 2.777070 seconds to LoadMap(/Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase)
+[2023.02.18-21.28.12:042][185]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074960 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.28.47:824][386]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.18-21.28.47:824][386]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.18-21.28.47:824][386]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:824][386]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:840][387]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:840][387]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:840][387]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:840][387]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:853][388]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:853][388]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:853][388]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:853][388]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:864][389]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:864][389]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:864][389]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:864][389]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:876][390]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:876][390]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:876][390]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:876][390]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:885][391]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:885][391]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:885][391]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:885][391]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:893][392]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:894][392]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:894][392]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:894][392]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:902][393]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:902][393]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:902][393]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:902][393]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:910][394]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:910][394]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:910][394]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:910][394]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:919][395]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:919][395]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:919][395]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:919][395]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:927][396]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:927][396]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:927][396]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:927][396]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:936][397]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:936][397]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:936][397]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:936][397]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:943][398]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:943][398]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:943][398]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:943][398]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:952][399]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:952][399]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:952][399]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:952][399]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:961][400]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:961][400]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:961][400]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:961][400]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:969][401]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:969][401]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:969][401]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:969][401]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:980][402]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:980][402]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:980][402]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:980][402]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:988][403]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:989][403]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:989][403]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:989][403]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:997][404]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:997][404]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.47:997][404]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.47:997][404]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:005][405]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:005][405]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:005][405]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:005][405]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:015][406]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:015][406]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:015][406]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:015][406]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:023][407]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:023][407]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:023][407]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:023][407]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:032][408]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:032][408]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:032][408]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:032][408]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:040][409]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:040][409]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:040][409]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:040][409]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:048][410]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:048][410]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:048][410]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:048][410]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:056][411]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:056][411]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:056][411]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:056][411]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:065][412]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:065][412]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:065][412]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:065][412]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:073][413]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:073][413]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:073][413]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:073][413]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:081][414]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:082][414]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:082][414]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:082][414]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:090][415]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:090][415]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:090][415]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:090][415]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:100][416]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:100][416]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:100][416]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:100][416]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:109][417]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:109][417]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:109][417]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:109][417]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:117][418]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:117][418]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:117][418]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:117][418]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:125][419]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:126][419]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:126][419]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:126][419]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:134][420]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:134][420]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:134][420]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:134][420]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:143][421]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:143][421]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:143][421]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:143][421]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:151][422]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:152][422]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:152][422]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:152][422]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:160][423]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:160][423]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:160][423]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:160][423]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:168][424]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:169][424]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:169][424]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:169][424]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:177][425]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:177][425]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:177][425]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:177][425]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:185][426]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:185][426]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:185][426]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:185][426]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:194][427]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:194][427]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:194][427]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:194][427]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:202][428]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:202][428]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:202][428]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:202][428]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:210][429]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:210][429]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:210][429]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:210][429]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:221][430]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:221][430]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:221][430]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:221][430]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:229][431]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:229][431]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:229][431]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:229][431]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:238][432]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:238][432]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:238][432]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:238][432]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:246][433]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:246][433]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:246][433]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:246][433]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:255][434]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:255][434]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:255][434]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:255][434]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:264][435]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:264][435]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:264][435]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:264][435]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:273][436]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:273][436]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:273][436]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:273][436]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:282][437]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:282][437]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:282][437]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:282][437]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:290][438]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:290][438]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:290][438]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:290][438]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:299][439]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:299][439]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:299][439]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:299][439]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:307][440]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:307][440]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:307][440]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:307][440]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:315][441]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:315][441]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:315][441]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:315][441]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:323][442]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:323][442]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:323][442]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:323][442]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:332][443]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:332][443]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:332][443]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:332][443]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:341][444]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:341][444]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:341][444]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:341][444]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:349][445]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:349][445]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:349][445]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:349][445]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:358][446]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:358][446]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:358][446]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:358][446]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:367][447]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:367][447]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:367][447]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:367][447]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:375][448]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:375][448]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:375][448]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:375][448]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:384][449]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:384][449]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:384][449]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:384][449]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:392][450]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:392][450]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:392][450]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:392][450]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:400][451]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:400][451]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:400][451]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:400][451]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:408][452]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:408][452]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:408][452]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:408][452]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:417][453]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:417][453]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:417][453]LogScript: Warning: Script Msg: The widget 'RestartWidget_C_5' was already added to the screen.
+[2023.02.18-21.28.48:417][453]LogScript: Warning: Last function called:
+	/Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter_C.DisplayRestart
+
+[2023.02.18-21.28.48:427][454]LogNet: Browse: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.28.48:427][454]LogLoad: LoadMap: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.28.48:427][454]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.28.48:428][454]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.28.48:434][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.28.48:518][454]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.18-21.28.48:534][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2023.02.18-21.28.48:547][454]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.28.48:640][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092674s)
+[2023.02.18-21.28.48:640][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.092728s)
+[2023.02.18-21.28.48:640][454]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.28.48:640][454]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.28.48:640][454]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.28.48:641][454]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2023.02.18-21.28.48:641][454]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.28.48:667][454]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.28.48
+[2023.02.18-21.28.51:144][454]LogWorld: Bringing up level for play took: 2.503764
+[2023.02.18-21.28.51:151][454]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.02.18-21.28.51:151][454]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.02.18-21.28.51:152][454]LogLoad: Took 2.725396 seconds to LoadMap(/Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase)
+[2023.02.18-21.28.51:183][455]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068513 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.29.55:570][540]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.18-21.29.55:571][540]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.18-21.29.56:363][590]LogNet: Browse: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.29.56:363][590]LogLoad: LoadMap: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.29.56:363][590]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.29.56:365][590]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.29.56:370][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.29.56:478][590]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.18-21.29.56:504][590]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.02.18-21.29.56:518][590]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.29.56:611][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.092936s)
+[2023.02.18-21.29.56:611][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.092987s)
+[2023.02.18-21.29.56:611][590]LogAudio: Display: Audio Device (ID: 8) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.29.56:611][590]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.29.56:612][590]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.29.56:612][590]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2023.02.18-21.29.56:612][590]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.29.56:638][590]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.29.56
+[2023.02.18-21.29.59:117][590]LogWorld: Bringing up level for play took: 2.505418
+[2023.02.18-21.29.59:124][590]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.02.18-21.29.59:124][590]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2023.02.18-21.29.59:125][590]LogLoad: Took 2.762991 seconds to LoadMap(/Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase)
+[2023.02.18-21.29.59:159][591]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077755 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.31.12:393][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.31.12:393][128]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.31.12:394][128]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.31.12:399][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.31.12:406][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.18-21.31.12:418][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.31.12:488][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.31.12:509][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.02.18-21.31.12:511][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.02.18-21.31.12:539][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2023.02.18-21.31.12:596][129]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2023.02.18-21.32.42:886][847]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.02.18-21.32.49:652][207]Cmd: EDIT COPY
+[2023.02.18-21.32.49:921][227]Cmd: EDIT PASTE
+[2023.02.18-21.32.50:031][228]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:176][316]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:228][320]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:278][324]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:316][327]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:343][329]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:487][339]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:529][341]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.51:762][349]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.32.52:551][392]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.18-21.32.52:561][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.18-21.32.52:561][392]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 18, 2023, 9:32:52 AM)
+[2023.02.18-21.32.52:561][392]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.32.52:655][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093557s)
+[2023.02.18-21.32.52:655][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.093596s)
+[2023.02.18-21.32.52:655][392]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.32.52:656][392]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.32.52:656][392]LogPlayLevel: PIE: World Init took: (0.000936s)
+[2023.02.18-21.32.52:731][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2023.02.18-21.32.52:750][392]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.18-21.32.52:750][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.18-21.32.52:750][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.18-21.32.52:750][392]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.18-21.32.52:750][392]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.18-21.32.52:750][392]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.18-21.32.52:753][392]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.18-21.32.52:854][392]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.18-21.32.52:854][392]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.18-21.32.52:854][392]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.18-21.32.52:854][392]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.18-21.32.52:854][392]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.02.18-21.32.52:854][392]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.02.18-21.32.52:857][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.02.18-21.32.52:857][392]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.02.18-21.32.52:857][392]LogInit: FAudioDevice initialized.
+[2023.02.18-21.32.52:857][392]LogAudio: Display: Audio Device (ID: 9) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.32.52:860][392]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.32.52:890][392]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.32.52
+[2023.02.18-21.32.55:358][392]LogWorld: Bringing up level for play took: 2.497039
+[2023.02.18-21.32.55:360][392]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2023.02.18-21.32.55:367][392]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.18-21.32.55:368][392]PIE: Server logged in
+[2023.02.18-21.32.55:369][392]PIE: Play in editor total start time 2.808 seconds.
+[2023.02.18-21.32.55:401][393]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075057 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.33.11:223][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.33.11:223][243]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.33.11:223][243]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.33.11:229][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.33.11:235][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.18-21.33.11:245][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.33.11:327][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.18-21.33.11:327][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.02.18-21.33.11:329][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.02.18-21.33.11:336][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.33.11:351][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.02.18-21.33.11:423][244]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2023.02.18-21.33.15:486][523]Cmd: DELETE
+[2023.02.18-21.33.15:486][523]Cmd: ACTOR DELETE
+[2023.02.18-21.33.15:756][523]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.02.18-21.33.16:033][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.02.18-21.33.16:039][523]LogEditorActor: Deleted 1 Actors (0.553 secs)
+[2023.02.18-21.33.16:076][524]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.33.54:172][244]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.BP_Enemy_Pursuer
+[2023.02.18-21.33.54:172][244]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: ================================================
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: Total job queries 246, among them cache hits 51 (20.73%)
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: Tracking 195 distinct input hashes that result in 121 distinct outputs (62.05%)
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: RAM used: 0.41 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.02%
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.02.18-21.33.54:962][246]LogShaderCompilers: Display: ================================================
+[2023.02.18-21.34.07:935][828]BlueprintLog: New page: Compile BP_Enemy_Pursuer
+[2023.02.18-21.34.08:109][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.18-21.34.14:550][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile.BP_Projectile
+[2023.02.18-21.34.14:550][152]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.34.31:906][918]BlueprintLog: New page: Compile BP_Projectile
+[2023.02.18-21.34.32:036][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.02.18-21.34.33:877][  2]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile2.BP_Projectile2
+[2023.02.18-21.34.33:877][  2]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.34.50:191][795]BlueprintLog: New page: Compile BP_Projectile2
+[2023.02.18-21.34.50:401][795]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.02.18-21.34.51:820][798]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.18-21.34.52:817][850]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.34.52:817][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.34.54:137][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2023.02.18-21.34.54:137][914]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.34.54:137][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.34.56:258][ 41]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.18-21.34.56:268][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.18-21.34.56:268][ 41]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 18, 2023, 9:34:56 AM)
+[2023.02.18-21.34.56:268][ 41]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.34.56:363][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094528s)
+[2023.02.18-21.34.56:363][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.094564s)
+[2023.02.18-21.34.56:363][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.18-21.34.56:363][ 41]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.18-21.34.56:363][ 41]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2023.02.18-21.34.56:455][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2023.02.18-21.34.56:463][ 41]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.18-21.34.56:463][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.18-21.34.56:463][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.18-21.34.56:463][ 41]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.18-21.34.56:463][ 41]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.18-21.34.56:463][ 41]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.18-21.34.56:466][ 41]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.18-21.34.56:570][ 41]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.18-21.34.56:571][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.18-21.34.56:571][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.18-21.34.56:571][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.18-21.34.56:571][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.02.18-21.34.56:571][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.02.18-21.34.56:573][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.02.18-21.34.56:573][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.02.18-21.34.56:573][ 41]LogInit: FAudioDevice initialized.
+[2023.02.18-21.34.56:573][ 41]LogAudio: Display: Audio Device (ID: 10) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.18-21.34.56:577][ 41]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.18-21.34.56:606][ 41]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.18-15.34.56
+[2023.02.18-21.34.59:091][ 41]LogWorld: Bringing up level for play took: 2.514468
+[2023.02.18-21.34.59:094][ 41]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.02.18-21.34.59:100][ 41]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.18-21.34.59:102][ 41]PIE: Server logged in
+[2023.02.18-21.34.59:103][ 41]PIE: Play in editor total start time 2.836 seconds.
+[2023.02.18-21.34.59:228][ 42]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.077806 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.18-21.35.22:188][458]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.18-21.35.22:188][458]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.18-21.35.25:081][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.35.25:081][731]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.18-21.35.25:082][731]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.18-21.35.25:087][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.35.25:093][731]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.18-21.35.25:104][731]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.18-21.35.25:191][731]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.18-21.35.25:196][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.02.18-21.35.25:198][731]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.02.18-21.35.25:223][731]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2023.02.18-21.35.25:263][732]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.02.18-21.35.27:679][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2023.02.18-21.35.29:248][927]LogSlate: Window 'Save Content' being destroyed
+[2023.02.18-21.35.29:255][927]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.18-21.35.29:355][927]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.02.18-21.35.29:705][927]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.18-21.35.29:706][927]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/LearningKit_Games_Showcase6F0EADE345EC79ADF5A21D951AE025BC.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2023.02.18-21.35.29:721][927]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.448
+[2023.02.18-21.35.31:667][927]LogSlate: Window 'Save Level As' being destroyed
+[2023.02.18-21.35.31:690][927]LogFileHelpers: InternalPromptForCheckoutAndSave took 2.43 sec (total: 3.08 sec)
+[2023.02.18-21.35.31:704][927]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2023.02.18-21.35.31:704][927]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2023.02.18-21.35.32:799][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2023.02.18-21.35.34:051][987]LogSlate: Window 'Save Content' being destroyed
+[2023.02.18-21.35.34:057][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.18-21.35.35:096][987]LogSlate: Window 'Save Level As' being destroyed
+[2023.02.18-21.35.35:117][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.05 sec (total: 4.14 sec)
+[2023.02.18-21.35.35:983][ 36]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.02.18-21.35.38:007][ 36]LogSlate: Window 'Save Content' being destroyed
+[2023.02.18-21.35.38:014][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.18-21.35.38:124][ 36]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer
+[2023.02.18-21.35.38:125][ 36]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/BP_Enemy_Pursuer0277D9CE4A2CF77AE4487DAE737F16D3.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.uasset'
+[2023.02.18-21.35.38:152][ 36]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile
+[2023.02.18-21.35.38:153][ 36]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/BP_ProjectileDD2331DD44E8A8C533260C9969E44E56.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Blueprints/Interactables/BP_Projectile.uasset'
+[2023.02.18-21.35.38:181][ 36]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile2
+[2023.02.18-21.35.38:182][ 36]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Saved/BP_Projectile221915CCE49A72FECD40786ADE9DEA2D5.tmp' to '../../../../../../Users/tylerll2/Documents/Unreal Projects/UnrealLearningKit/LevelDesign/Content/LearningKit_Games/Blueprints/Interactables/BP_Projectile2.uasset'
+[2023.02.18-21.35.38:189][ 36]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 4.31 sec)
+[2023.02.18-21.35.38:203][ 36]AssetCheck: New page: Asset Save: multiple assets
+[2023.02.18-21.35.38:203][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile2.BP_Projectile2
+[2023.02.18-21.35.38:203][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/Interactables/BP_Projectile.BP_Projectile
+[2023.02.18-21.35.38:203][ 36]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_Enemy_Pursuer.BP_Enemy_Pursuer
