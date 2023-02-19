@@ -10994,3 +10994,218 @@ UnknownFunction []
 [2023.02.19-21.05.25:692][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/PlayerCharacter/BP_LearningKit_PlayerCharacter.BP_LearningKit_PlayerCharacter
 [2023.02.19-21.05.25:692][780]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/LearningKit_Games/Blueprints/Pickups/BP_Winning_Crystal.BP_Winning_Crystal
 [2023.02.19-21.05.25:693][780]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2023.02.19-21.05.45:336][947]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.19-21.05.45:346][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.19-21.05.45:346][947]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 19, 2023, 9:05:45 AM)
+[2023.02.19-21.05.45:384][947]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.19-21.05.45:517][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132951s)
+[2023.02.19-21.05.45:517][947]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.132991s)
+[2023.02.19-21.05.45:517][947]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.19-21.05.45:518][947]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.19-21.05.45:518][947]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2023.02.19-21.05.45:551][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2023.02.19-21.05.45:552][947]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.19-21.05.45:552][947]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.19-21.05.45:552][947]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.19-21.05.45:553][947]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.19-21.05.45:553][947]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.19-21.05.45:553][947]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.19-21.05.45:556][947]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.19-21.05.45:668][947]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.19-21.05.45:669][947]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.19-21.05.45:669][947]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.19-21.05.45:669][947]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.19-21.05.45:669][947]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.02.19-21.05.45:669][947]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.02.19-21.05.45:672][947]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.02.19-21.05.45:672][947]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.02.19-21.05.45:672][947]LogInit: FAudioDevice initialized.
+[2023.02.19-21.05.45:672][947]LogAudio: Display: Audio Device (ID: 24) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.19-21.05.45:675][947]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.19-21.05.45:719][947]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.19-15.05.45
+[2023.02.19-21.05.48:187][947]LogWorld: Bringing up level for play took: 2.511686
+[2023.02.19-21.05.48:190][947]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2023.02.19-21.05.48:196][947]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.19-21.05.48:197][947]PIE: Server logged in
+[2023.02.19-21.05.48:198][947]PIE: Play in editor total start time 2.852 seconds.
+[2023.02.19-21.05.48:229][948]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.075506 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.19-21.05.58:984][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.19-21.05.58:984][527]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.19-21.05.58:985][527]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.19-21.05.58:992][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.19-21.05.58:997][527]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.19-21.05.59:006][527]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.19-21.05.59:039][527]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.02.19-21.05.59:051][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.02.19-21.05.59:053][527]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.02.19-21.05.59:060][527]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.19-21.05.59:081][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2023.02.19-21.05.59:115][528]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2023.02.19-21.06.00:143][604]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.02.19-21.06.00:152][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.02.19-21.06.00:153][604]PIE: New page: PIE session: LearningKit_Games_Showcase (Feb 19, 2023, 9:06:00 AM)
+[2023.02.19-21.06.00:174][604]LogPlayLevel: Creating play world package: /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.19-21.06.00:306][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.132070s)
+[2023.02.19-21.06.00:306][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase to /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase (0.132111s)
+[2023.02.19-21.06.00:306][604]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2023.02.19-21.06.00:307][604]LogAIModule: Creating AISystem for world LearningKit_Games_Showcase
+[2023.02.19-21.06.00:307][604]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2023.02.19-21.06.00:341][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.02.19-21.06.00:344][604]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.02.19-21.06.00:344][604]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.02.19-21.06.00:344][604]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.02.19-21.06.00:345][604]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.02.19-21.06.00:345][604]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.02.19-21.06.00:345][604]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.02.19-21.06.00:347][604]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.02.19-21.06.00:457][604]LogAudioMixer: Display: Using Audio Hardware Device Speakers / Headphones (Realtek Audio)
+[2023.02.19-21.06.00:457][604]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.02.19-21.06.00:457][604]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.02.19-21.06.00:457][604]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.02.19-21.06.00:458][604]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2023.02.19-21.06.00:458][604]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2023.02.19-21.06.00:460][604]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2023.02.19-21.06.00:460][604]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2023.02.19-21.06.00:460][604]LogInit: FAudioDevice initialized.
+[2023.02.19-21.06.00:460][604]LogAudio: Display: Audio Device (ID: 25) registered with world 'LearningKit_Games_Showcase'.
+[2023.02.19-21.06.00:464][604]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2023.02.19-21.06.00:508][604]LogWorld: Bringing World /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase.LearningKit_Games_Showcase up for play (max tick rate 0) at 2023.02.19-15.06.00
+[2023.02.19-21.06.02:960][604]LogWorld: Bringing up level for play took: 2.495855
+[2023.02.19-21.06.02:963][604]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2023.02.19-21.06.02:968][604]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2023.02.19-21.06.02:970][604]PIE: Server logged in
+[2023.02.19-21.06.02:971][604]PIE: Play in editor total start time 2.818 seconds.
+[2023.02.19-21.06.03:010][605]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074283 > MaxSimulationTimeStep (0.050) for 'BP_LearningKit_PlayerCharacter_C_0', movement 'Walking'
+[2023.02.19-21.07.46:737][359]LogCharacterMovement: BP_LearningKit_PlayerCharacter_C_0 is stuck and failed to move! Velocity: X=-62.76 Y=30.15 Z=0.00 Location: X=8180.48 Y=-2511.93 Z=625.15 Normal: X=0.27 Y=0.96 Z=-0.00 PenetrationDepth:5.515 Actor:BP_Projectile2_C_2900 Component:CapsuleComponent BoneName:None (0 other events since notify)
+[2023.02.19-21.10.34:825][517]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.02.19-21.10.34:826][517]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2023.02.19-21.10.38:833][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.19-21.10.38:833][985]LogWorld: BeginTearingDown for /Game/LearningKit_Games/Maps/UEDPIE_0_LearningKit_Games_Showcase
+[2023.02.19-21.10.38:834][985]LogWorld: UWorld::CleanupWorld for LearningKit_Games_Showcase, bSessionEnded=true, bCleanupResources=true
+[2023.02.19-21.10.38:840][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.19-21.10.38:845][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.02.19-21.10.38:852][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.02.19-21.10.38:890][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.02.19-21.10.38:892][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.02.19-21.10.38:895][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2023.02.19-21.10.38:917][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.02.19-21.10.38:948][986]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2023.02.19-21.10.49:418][ 38]Cmd: EDIT COPY
+[2023.02.19-21.10.49:712][ 66]Cmd: EDIT PASTE
+[2023.02.19-21.10.50:292][ 81]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.10.53:047][293]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: ================================================
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Total job queries 5391, among them cache hits 24 (0.45%)
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Tracking 5353 distinct input hashes that result in 3821 distinct outputs (71.38%)
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: RAM used: 12.63 MB (0.01 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.77%
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Shaders Compiled: 5353
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Jobs assigned 5357, completed 5353 (99.93%)
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Average time worker was idle: 28.02 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Time job spent in pending queue: average 405.80 s, longest 824.05 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Job execution time: average 7.74 s, max 36.22 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Job life time (pending + execution): average 413.85 s, max 826.48
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 893.80 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Jobs were issued in 696 batches (only local compilation was used), average 7.70 jobs/batch
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Average processing rate: 5.99 jobs/sec
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Total thread time: 4249.10 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Total thread preprocess time: 202.70 s
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Percentage time preprocessing: 4.77%
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Effective parallelization: 4.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.02.19-21.11.00:817][994]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 24.04 sec, max 24.04 sec, min 24.04 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 8.04 sec, max 22.29 sec, min 0.47 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 5.92 sec, max 5.92 sec, min 5.92 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 5.86 sec, max 13.35 sec, min 2.72 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                        FRadixSortDownsweepCS (compiled    1 times, average 5.80 sec, max 5.80 sec, min 5.80 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 11.89% of total time (compiled  128 times, average 3.95 sec, max 6.49 sec, min 2.28 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 7.67% of total time (compiled  128 times, average 2.55 sec, max 7.22 sec, min 0.43 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                             FDeferredLightPS - 4.73% of total time (compiled  102 times, average 1.97 sec, max 3.96 sec, min 0.54 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.56% of total time (compiled   96 times, average 2.02 sec, max 4.63 sec, min 0.37 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 4.50% of total time (compiled   64 times, average 2.99 sec, max 4.65 sec, min 1.20 sec)
+[2023.02.19-21.11.00:818][994]LogShaderCompilers: Display: ================================================
+[2023.02.19-21.11.05:930][423]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.13:355][ 54]Cmd: EDIT COPY
+[2023.02.19-21.11.13:617][ 80]Cmd: EDIT PASTE
+[2023.02.19-21.11.14:084][ 95]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.21:757][697]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.29:006][318]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.33:603][688]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.39:545][176]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.42:051][395]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase:PersistentLevel.RecastNavMesh-Default).
+[2023.02.19-21.11.52:067][268]Cmd: DELETE
+[2023.02.19-21.11.52:067][268]Cmd: ACTOR DELETE
+[2023.02.19-21.11.53:583][268]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.11.53:641][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.02.19-21.11.53:648][268]LogEditorActor: Deleted 1 Actors (1.580 secs)
+[2023.02.19-21.11.54:562][347]Cmd: DELETE
+[2023.02.19-21.11.54:562][347]Cmd: ACTOR DELETE
+[2023.02.19-21.11.54:590][347]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.11.54:628][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.02.19-21.11.54:630][347]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2023.02.19-21.11.58:058][691]Cmd: DELETE
+[2023.02.19-21.11.58:058][691]Cmd: ACTOR DELETE
+[2023.02.19-21.11.58:083][691]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.11.58:119][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.02.19-21.11.58:123][691]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2023.02.19-21.12.01:151][986]Cmd: DELETE
+[2023.02.19-21.12.01:151][986]Cmd: ACTOR DELETE
+[2023.02.19-21.12.01:175][986]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.12.01:210][986]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.02.19-21.12.01:214][986]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2023.02.19-21.12.03:838][268]Cmd: DELETE
+[2023.02.19-21.12.03:838][268]Cmd: ACTOR DELETE
+[2023.02.19-21.12.03:861][268]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.12.03:896][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2023.02.19-21.12.03:899][268]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2023.02.19-21.12.09:296][772]Cmd: DELETE
+[2023.02.19-21.12.09:296][772]Cmd: ACTOR DELETE
+[2023.02.19-21.12.09:321][772]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.12.09:356][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.02.19-21.12.09:359][772]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2023.02.19-21.12.12:185][ 25]Cmd: DELETE
+[2023.02.19-21.12.12:185][ 25]Cmd: ACTOR DELETE
+[2023.02.19-21.12.12:209][ 25]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.12.12:242][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.02.19-21.12.12:246][ 25]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2023.02.19-21.12.15:276][304]Cmd: DELETE
+[2023.02.19-21.12.15:276][304]Cmd: ACTOR DELETE
+[2023.02.19-21.12.15:300][304]LogEditorActor: Deleted Actor: PowerUp_Pickup_BP_Child_C
+[2023.02.19-21.12.15:336][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2023.02.19-21.12.15:339][304]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2023.02.19-21.12.49:972][663]LogEditorViewport: Clicking Background
+[2023.02.19-21.12.51:747][808]LogEditorViewport: Clicking Background
+[2023.02.19-21.12.55:270][114]LogEditorViewport: Clicking Background
+[2023.02.19-21.13.01:453][623]LogEditorViewport: Clicking Background
+[2023.02.19-21.13.18:339][ 29]Cmd: TRANSACTION UNDO
+[2023.02.19-21.13.18:339][ 29]LogEditorTransaction: Undo Move Elements
+[2023.02.19-21.13.35:305][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.19-21.13.35:383][191]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2023.02.19-21.13.35:859][191]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.19-21.13.35:860][191]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Saved/LearningKit_Games_Showcase859E58A7409ECEB91D316AB02FFA808C.tmp' to '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2023.02.19-21.13.35:883][191]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.543
+[2023.02.19-21.13.35:901][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 595 ms (total: 1.25 sec)
+[2023.02.19-21.13.35:916][191]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2023.02.19-21.13.35:916][191]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
+[2023.02.19-21.13.46:168][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.19-21.13.46:242][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.02.19-21.13.46:707][974]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase
+[2023.02.19-21.13.46:708][974]LogSavePackage: Moving '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Saved/LearningKit_Games_Showcase783B85034B3174E9E8C2F7B776444C8D.tmp' to '../../../../../../Users/tylerll2/Documents/GitHub/LevelDesign/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap'
+[2023.02.19-21.13.46:724][974]LogFileHelpers: Saving map 'LearningKit_Games_Showcase' took 0.520
+[2023.02.19-21.13.46:743][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 575 ms (total: 1.82 sec)
+[2023.02.19-21.13.46:757][974]AssetCheck: New page: Asset Save: LearningKit_Games_Showcase
+[2023.02.19-21.13.46:757][974]LogContentValidation: Display: Validating /Script/Engine.World /Game/LearningKit_Games/Maps/LearningKit_Games_Showcase.LearningKit_Games_Showcase
